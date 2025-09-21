@@ -271,7 +271,7 @@ Adding SERP reduces runtime for experiments that use impressions as trials by 23
 
 Adding Other Placements
 Finally, Profile and other placements covered in JS Pro & JS Premium: Acquisition Strategy
-SERP is by far the largest opportunity for distinct accounts; priority-wise, these other opportunities should be added after SERP (maybe there is a strategic or risk-mitigation not to do this)
+SERP is by far the largest opportunity for distinct accounts; priority-wise, these other opportunities should be added after SERP (maybe there is a strategic or risk-***REDACTED*** not to do this)
 
 Experiments using Accounts as Trials
 Experiments Enabled by Accounts as Trials
@@ -394,7 +394,7 @@ At 20%, this will be 140k impressions / week (7k x 20)
 Adding SERP reduces runtime for experiments that user accounts as trials by 75%: from 2 weeks to 3.5 days (72k trials / 140k accounts / week at 20%)
 Adding Other Placements
 Finally, Profile and other placements covered in JS Pro & JS Premium: Acquisition Strategy
-SERP is by far the largest opportunity for distinct accounts; priority-wise, these other opportunities should be added after SERP (maybe there is a strategic or risk-mitigation not to do this)
+SERP is by far the largest opportunity for distinct accounts; priority-wise, these other opportunities should be added after SERP (maybe there is a strategic or risk-***REDACTED*** not to do this)
 
 #### ChatGPT:
 <time datetime="2025-02-25T22:24:14.244Z" title="2/26/2025, 7:24:14 AM">07:24</time>

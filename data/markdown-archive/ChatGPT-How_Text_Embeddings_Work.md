@@ -225,7 +225,7 @@ Modern Transformer-based models typically employ **subword tokenization** method
 ### 5.2. Regularization and Fine-Tuning
 - **Dropout** is applied in attention layers, feed-forward layers, and embedding layers to prevent overfitting.  
 - **Layer Normalization** stabilizes training by normalizing hidden states.  
-- **Fine-tuning** tasks (e.g., sentiment analysis, question-answering) often freeze or partially freeze earlier layers while training a task-specific head on top. Alternatively, the entire stack can be fine-tuned end-to-end, adjusting all embedding and Transformer parameters.
+- **Fine-tuning** tasks (e.g., sentiment analysis, question-answering) often freeze or partially freeze earlier layers while training a task-***REDACTED*** head on top. Alternatively, the entire stack can be fine-tuned end-to-end, adjusting all embedding and Transformer parameters.
 
 ### 5.3. Negative Sampling vs. Full Softmax
 In large vocabularies (tens or hundreds of thousands of tokens), computing a full softmax can be expensive.  

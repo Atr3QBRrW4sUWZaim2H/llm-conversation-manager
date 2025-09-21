@@ -15,7 +15,7 @@ i have a galaxy tab 10 that I want to turn into a single purpose remote for roon
 
 Below is a general roadmap you can follow to repurpose a Galaxy Tab 10 (or similar older Android tablet) into a single-purpose “kiosk” device that runs only the Roon Remote app. I’ll break it down into two main approaches:
 
-- **Approach A: Use a Kiosk-Style Launcher on Stock Firmware (No Root Required)**
+- **Approach A: Use a Kiosk-***REDACTED*** Launcher on Stock Firmware (No Root Required)**
 - **Approach B: Install a Custom ROM and Strip Out Everything Except Roon**
 
 Either approach can achieve the goal of hiding unnecessary apps and focusing the tablet purely on Roon control. Which one you pick will depend on your comfort level with rooting, custom firmware, and how “bare-bones” you want the device to be.
@@ -64,7 +64,7 @@ This approach requires minimal technical overhead and no rooting. The idea is to
      - **Fully Kiosk Browser & App Lockdown** (often used for web kiosk but can also lock down other apps).
      - **SureLock Kiosk Lockdown** by 42Gears.
      - **Kiosk Lockdown** by ProMobi (Scalefusion).
-     - **Hexnode Kiosk** or any other kiosk-style apps.
+     - **Hexnode Kiosk** or any other kiosk-***REDACTED*** apps.
 
 5. **Configure the Kiosk Launcher**
    - Follow the specific launcher’s instructions to:
@@ -108,7 +108,7 @@ If you’re comfortable with more advanced steps—and especially if your Galaxy
    - If you installed a minimal GApps or microG package, you’ll likely only have a handful of Google apps. You can remove or disable anything else you don’t want.
    - (Optional) You can install **Magisk** for root access to remove any leftover system apps or do deeper customization. Make sure not to break Roon’s dependencies in the process.
 
-6. **Install a Kiosk-Style Launcher** (Optional)
+6. **Install a Kiosk-***REDACTED*** Launcher** (Optional)
    - Even on a custom ROM, you can still use a kiosk launcher to lock the device into Roon. Or you can replace your default launcher with a minimal “home screen” that shows only one app icon.
    - You might also find a “lockdown” setting in the custom ROM if it’s designed for kiosk or single-app mode.
 

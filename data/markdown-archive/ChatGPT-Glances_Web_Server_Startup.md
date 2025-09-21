@@ -4514,7 +4514,7 @@ If you’re concerned about your **personal files** and want to minimize risk, t
 3. Consider hosting on a **separate machine** (physical or virtual) if you want the highest level of isolation.
 4. For most hobbyist or home-lab setups, it’s common to host a web application on a personal computer. Just stay on top of patches and best practices.
 
-Ultimately, weigh the **convenience** of running Outline on your personal machine against the **security benefits** of a separate host or VM. As long as you adhere to these guidelines, hosting Outline locally can be done reasonably securely—just remember no system is 100% risk-free.
+Ultimately, weigh the **convenience** of running Outline on your personal machine against the **security benefits** of a separate host or VM. As long as you adhere to these guidelines, hosting Outline locally can be done reasonably securely—just remember no system is 100% risk-***REDACTED***.
 
 
 #### You:

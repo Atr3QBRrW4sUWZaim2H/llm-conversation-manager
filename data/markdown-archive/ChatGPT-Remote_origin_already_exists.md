@@ -3331,8 +3331,8 @@ docker run -p 11235:11235 \
 # With security and LLM support
 docker run -p 11235:11235 \
   -e CRAWL4AI_API_TOKEN=your_secret_token \
-  -e OPENAI_API_KEY=sk-... \
-  -e ANTHROPIC_API_KEY=sk-ant-... \
+  -e OPENAI_API_KEY=sk-***REDACTED***... \
+  -e ANTHROPIC_API_KEY=sk-***REDACTED******REDACTED***... \
   unclecode/crawl4ai:all
 
 ```
@@ -3366,7 +3366,7 @@ services:
 You can run it in two ways:
   1. Using environment variables directly: 
 ```
-CRAWL4AI_API_TOKEN=secret123 OPENAI_API_KEY=sk-... docker-compose up
+CRAWL4AI_API_TOKEN=secret123 OPENAI_API_KEY=sk-***REDACTED***... docker-compose up
 
 ```
 
@@ -3375,8 +3375,8 @@ CRAWL4AI_API_TOKEN=secret123 OPENAI_API_KEY=sk-... docker-compose up
 # API Security (optional)
 CRAWL4AI_API_TOKEN=your_secret_token
 # LLM Provider Keys
-OPENAI_API_KEY=sk-...
-ANTHROPIC_API_KEY=sk-ant-...
+OPENAI_API_KEY=sk-***REDACTED***...
+ANTHROPIC_API_KEY=sk-***REDACTED******REDACTED***...
 # Other Configuration
 MAX_CONCURRENT_TASKS=5
 

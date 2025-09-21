@@ -10335,7 +10335,7 @@ Docs
 
 - **Base**: Mistral-7B-v0.1 (a decoder-only LLM)
 - **Embedding Dimension**: 4096 (much larger than the 384 or 768 dimensions typical of smaller SentenceTransformers models)
-- **Instruction Tuning**: Allows you to prepend an “instruction” for more domain- or task-specific embeddings (like QA, summarization, classification, etc.)
+- **Instruction Tuning**: Allows you to prepend an “instruction” for more domain- or task-***REDACTED*** embeddings (like QA, summarization, classification, etc.)
 - **Hard-Negative Mining**: The model’s training approach carefully accounts for partial relevance scores to better handle false negatives.
 
 **Implications**:

@@ -786,7 +786,7 @@ Once each text chunk (e.g., from a PDF or multiple documents) is transformed int
 
 2. **Memory vs. Speed**
    - **In-Memory**: Fast lookups, but can be expensive or impossible for HPC-scale datasets if they exceed memory capacity.
-   - **Disk-Based**: Can store more vectors but with higher query latency. Many systems use caching or multi-level storage (SSD, memory) to balance cost and speed.
+   - **Disk-***REDACTED*****: Can store more vectors but with higher query latency. Many systems use caching or multi-level storage (SSD, memory) to balance cost and speed.
 
 3. **GPU Acceleration**
    - Some solutions (like FAISS) can leverage GPUs for embedding storage and similarity searches, dramatically speeding up queries.
