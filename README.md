@@ -22,6 +22,33 @@ This repository consolidates three separate projects into a comprehensive conver
 - **Docker Support**: Easy deployment with Docker Compose
 - **API Access**: REST API for programmatic access
 
+## Project Structure
+
+```
+llm-conversation-manager/
+├── src/                    # Source code
+│   ├── database/          # Database models and connection
+│   ├── importers/         # Data importers for different platforms
+│   ├── processors/        # Data processing and deduplication
+│   ├── utils/             # Utility functions
+│   └── web/               # Streamlit web interface
+├── docker/                # Docker configuration
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── docs/                  # Documentation
+│   ├── DOCKER.md         # Docker setup guide
+│   └── history/          # Historical documentation
+├── scripts/              # Utility scripts
+├── config/               # Configuration files
+├── data/                 # Data storage
+│   ├── markdown-archive/ # Imported markdown files
+│   ├── to-process/       # Files awaiting processing
+│   ├── processed/        # Successfully processed files
+│   └── failed/           # Failed processing files
+├── tests/                # Test files
+└── logs/                 # Application logs
+```
+
 ## Quick Start
 
 1. **Clone and Setup**:
@@ -232,8 +259,17 @@ python -m src.database.migrate up
 ### Docker
 
 ```bash
+# Copy environment file
+cp .env.example .env
+
+# Navigate to docker directory
+cd docker
+
+# Start services
 docker-compose up -d
 ```
+
+For detailed Docker setup instructions, see [docs/DOCKER.md](docs/DOCKER.md).
 
 ### Manual Deployment
 

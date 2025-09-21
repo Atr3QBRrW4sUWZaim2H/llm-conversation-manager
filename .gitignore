@@ -71,7 +71,7 @@ backups/backup_*/
 ehthumbs.db
 Thumbs.db
 
-# Editor files
+# IDE and Editor files
 .vscode/
 .idea/
 *.swp

@@ -1,0 +1,104 @@
+# =====================================================================
+# Infisical Configuration Template
+# This file configures Infisical agent for secrets management
+#
+# Instructions:
+# 1. Copy this file to infisical.yaml
+# 2. Update the project_id with your Infisical project ID
+# 3. Update the environment with your target environment
+# 4. Add any additional secret paths as needed
+# =====================================================================
+
+# Infisical Project Configuration
+project_id: "07321aa8-d01e-42a7-b80b-bd9c0a60b124"
+environment: "production"  # or "development", "staging"
+
+# Secret Paths Configuration
+# Each path maps to a directory in the mounted secrets volume
+secrets:
+  # Application Configuration
+  - path: "/secrets/app"
+    secret_path: "/app"
+    environment: "production"
+  
+  # Database Configuration
+  - path: "/secrets/database"
+    secret_path: "/database"
+    environment: "production"
+  
+  # External API Keys
+  - path: "/secrets/external"
+    secret_path: "/external"
+    environment: "production"
+  
+  # Logging Configuration
+  - path: "/secrets/logging"
+    secret_path: "/logging"
+    environment: "production"
+
+# Agent Configuration
+agent:
+  # Update interval for secrets (in seconds)
+  update_interval: 300
+  
+  # Log level for agent operations
+  log_level: "info"
+  
+  # Enable secret rotation
+  enable_rotation: true
+  
+  # Secret file permissions
+  file_permissions: "0600"
+  
+  # Directory permissions
+  dir_permissions: "0700"
+
+# Security Configuration
+security:
+  # Enable secret validation
+  validate_secrets: true
+  
+  # Enable secret encryption at rest
+  encrypt_at_rest: true
+  
+  # Secret access logging
+  enable_audit_log: true
+
+# Monitoring Configuration
+monitoring:
+  # Enable health checks
+  enable_health_check: true
+  
+  # Health check interval (in seconds)
+  health_check_interval: 60
+  
+  # Metrics collection
+  enable_metrics: true
+
+# Example Secret Structure in Infisical:
+# 
+# Project: your-project-name
+# Environment: production
+# 
+# /app/
+#   ├── API_HOST=0.0.0.0
+#   ├── API_PORT=8000
+#   ├── API_DEBUG=false
+#   └── SECRET_KEY=your-secret-key
+# 
+# /database/
+#   ├── DB_HOST=project-name-db
+#   ├── DB_PORT=5432
+#   ├── DB_NAME=your_database
+#   ├── DB_USER=your_user
+#   └── DB_PASSWORD=your_password
+# 
+# /external/
+#   ├── EXTERNAL_API_KEY=your-api-key
+#   ├── EXTERNAL_API_URL=https://api.example.com
+#   └── WEBHOOK_SECRET=your-webhook-secret
+# 
+# /logging/
+#   ├── LOG_LEVEL=INFO
+#   ├── LOG_FILE=logs/app.log
+#   └── LOG_FORMAT=json
